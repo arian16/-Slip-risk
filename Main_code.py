@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score, roc_curve
 
 df = pd.read_csv("/Users/dataset/ACOF_RCOF.csv",encoding='latin1')
 #print(df.head())
